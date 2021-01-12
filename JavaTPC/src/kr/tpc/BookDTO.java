@@ -16,4 +16,14 @@ public class BookDTO {
         this.price = price;
         this.company = company;
     }
+
+    @Override
+    public String toString() {
+        return "BookDTO{" +
+                "title='" + title + '\'' +
+                ", page=" + page +
+                ", price=" + price +
+                ", company='" + company + '\'' +
+                '}';
+    }
 }

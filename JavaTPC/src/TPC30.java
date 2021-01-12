@@ -15,7 +15,6 @@ public class TPC30 {
                 ((B) o[i]).go();
             }
         }
-
         printGo(o);
     }
 
